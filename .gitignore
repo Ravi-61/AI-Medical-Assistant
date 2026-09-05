@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
+.env
+.env.local
+.env.development
+.env.production
+!.env.example
+
+# Build output
+dist/
+build/
+coverage/
+
+# Scratch & testing scripts
+scratch/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temp files
+*.tmp
+*.temp
